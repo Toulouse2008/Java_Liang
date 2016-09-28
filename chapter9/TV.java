@@ -7,10 +7,10 @@ public class TV{
 
   }
   public void turnOn(){
-    on = ture;
+    on = true;
   }
 
-  public void turnOff{
+  public void turnOff(){
     on = false;
   }
   public void setChannel(int newChannel){
@@ -36,13 +36,7 @@ public class TV{
       volumeLevel++;
   }
   public void volumeDown(){
-    if(on && volumeLeve > 1)
+    if(on && volumeLevel > 1)
       volumeLevel--;
-  }
-
-  //Define mute method
-  public void volumeMute(){
-    if(on && volumeLevel >= 1)
-      volumeLevel = 0;
   }
 }
