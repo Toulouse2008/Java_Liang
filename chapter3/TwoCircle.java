@@ -29,6 +29,8 @@
        System.out.println("The two circles inscribe");
      else if (d > r1 + r2)
        System.out.println("The two circles are far away");
+     else if ((d < r1 + r2) && (d > r1 - r2 || d > r2 - r1))
+       System.out.println("The two circles intersect");
      else
        System.out.println("One circle is in the other");
    }
