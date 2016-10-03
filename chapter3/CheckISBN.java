@@ -1,4 +1,4 @@
-/** Check ISBN-10 (International Standard Book Number)
+/** Listing 3.9 Check ISBN-10 (International Standard Book Number)
  *  Calculate the last digit d10, which is a checksum, according
  *  formula: (d1 x1 + d2 x 2 + d3 x 3 + d4 x 4 + d5 x 5 + d6 x 6 +
  *  d7 x 7 + d8 x 8 + d9 x 9) % 11. If the checksum is 10, the last
