@@ -1,4 +1,4 @@
-/** Find number divisible by 5 and 6
+/** Exercise 5.10 Find number divisible by 5 and 6
  *  Write a program that displays all the numbers from 100 to 1000, ten per line
  *  that divisible by 5 and 6. Nubers are separated by exactly one space.
  */
@@ -17,6 +17,7 @@
          }
        }
      }
+     System.out.println();
 
    }
  }
