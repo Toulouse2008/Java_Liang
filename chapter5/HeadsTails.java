@@ -9,6 +9,7 @@ public class HeadsTails {
     int tails = 0;
     int heads = 0;
 
+    // Calculate and output the result
     for (int i = 0; i < 1000000; i++) {
       int n = (int)(Math.random() * 2);
       if (n == 0)
@@ -17,6 +18,6 @@ public class HeadsTails {
         tails++;
     }
     System.out.println("The number of heads is: " + heads +
-                       "\nThe number of tails is: " + tails);       
+                       "\nThe number of tails is: " + tails);
   }
 }
