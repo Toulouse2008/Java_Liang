@@ -19,5 +19,6 @@ public class ProcessString {
       System.out.print(ch);
     }
     System.out.println();
+    
   }
 }
