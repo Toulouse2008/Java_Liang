@@ -1,4 +1,4 @@
-/**Sort three integers with if-statements */
+/** Exercise 6.5 Sort three integers with if-statements */
 import java.util.Scanner;
 
 public class SortThreeTest{
