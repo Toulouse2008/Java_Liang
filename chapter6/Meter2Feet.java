@@ -1,4 +1,6 @@
-
+/** Exercise 6.9 Conversions between feet and meters
+ *  Write a class that contains the following two methods
+ */
 public class Meter2Feet{
   public static void main(String[] args){
     int feet1,  meters2;
