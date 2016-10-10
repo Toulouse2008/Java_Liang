@@ -1,6 +1,10 @@
-/**Display a number pattern in a rectangle in which the upper half
-   is filled with space*/
+/** E6.6 Display patterns
+ *  Display a number pattern in a rectangle in which the upper half
+   is filled with space
+ */
+
 import java.util.Scanner;
+
 public class DisplayPatternTest{
   public static void main(String[] args){
 
@@ -13,6 +17,7 @@ public class DisplayPatternTest{
     displayPatternB(number);
     displayTriangle(number);
   }
+
   //number triangle with the top apex in the middle
   public static void displayPatternA(int n){
 
@@ -28,6 +33,7 @@ public class DisplayPatternTest{
     }
 
   }
+
   //no space, left-align nubmer triangle
   public static void displayPatternB(int n){
 
@@ -43,6 +49,7 @@ public class DisplayPatternTest{
     }
 
   }
+  
   //two spaces, right-aligned number triangle
   public static void displayTriangle(int n){
 
