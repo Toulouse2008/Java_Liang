@@ -1,12 +1,17 @@
-/**Deterimine if a number is palindrome integer */
+/** Exercise 6.3 Palindrome integer
+ *  Write the method to test if an integer is palindorme number.
+ */
 import java.util.Scanner;
 
 public class PalindromeInteger{
   public static void main(String[] arg){
 
+    // Get input from the user
     System.out.println("Enter an integer:");
     Scanner input = new Scanner(System.in);
     int number = input.nextInt();
+
+    // Determine if palindrome
     int temp = reverse(number);
     boolean tf = isPalindrome(number, temp);
     if(tf = true){
@@ -14,9 +19,8 @@ public class PalindromeInteger{
     } else {
       System.out.printf("%d is not a palindrome number.\n", number);
     }
-
   }
-  //Generate the reverse version of the number
+  // Generate the reverse version of the number
   public static int reverse(int number){
     int temp = 0;
     if(number % 10 == 0){//no integer starts with 0
@@ -36,7 +40,8 @@ public class PalindromeInteger{
     }
     return number + temp * 10;
   }
-  //evaluate if the original number is equal to its reversed version
+
+  // Evaluate if the original number is equal to its reversed version
   public static boolean isPalindrome(int number, int numberR){
     if(number == numberR)
         return true;
