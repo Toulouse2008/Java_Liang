@@ -1,5 +1,9 @@
-/**output the first 100 pentagonal numbers defined by
-   PentagonalNumber=n*(3*n-1)/2 */
+/** Exercise 6.1 Math: pentagonal numbers
+ *  A petagonal number is defined as n(3n-1)/2 for n = 1,2,... and so on
+ *  Write a method that output the first 100 pentagonal numbers defined by
+ *  PentagonalNumber=n*(3*n-1)/2
+ */
+
 public class PentagonalNumber{
   public static void main(String[] args){
 
@@ -11,9 +15,9 @@ public class PentagonalNumber{
     }
   }
 
+  // Define the method
   static int getPentagonalNumber(int n){
 
       return n * ( 3 * n - 1) / 2;
-
     }
 }
