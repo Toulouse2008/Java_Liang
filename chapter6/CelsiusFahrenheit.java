@@ -8,18 +8,17 @@
  public class CelsiusFahrenheit {
    public static void main(String[] args) {
 
-     // Get test data from the user
-     Scanner input = new Scanner(System.in);
-     System.out.println("Enter the temperature in c: ");
-     double c = input.nextDouble();
-     System.out.println("Enter the temperature in f: ");
-     double f = input.nextDouble();
+     double celsius = 40.0;
+     double fahrenheit = 120.0;
 
-     double c2f = celsiusToFahrenheit(c);
-     double f2c = fahrenheitToCelsius(f);
-
-     System.out.println("The Fahrenheit is " + c2f);
-     System.out.println("The Celsius is " + f2c);
+     // Call the methods and output the table
+     System.out.println("Celsius\tFahrenheit\t|\tFahrenheit\tCelsius");
+     for (int i = 0; i <9; i++) {
+       System.out.printf("%-6.1f\t%-10.1f\t|\t%-10.1f\t%-6.1f\n",
+              celsius, celsiusToFahrenheit(celsius), fahrenheit, fahrenheitToCelsius(fahrenheit));
+       celsius -= 1;
+       fahrenheit -= 10;
+     }
    }
 
    // Define the method to convert from celsius to Fahrenheit
