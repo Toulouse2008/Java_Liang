@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class E9_6_Date {
+public class E9_3_Date {
   public static void main(String[] args) {
 
     Date d1 = new Date(10000);
