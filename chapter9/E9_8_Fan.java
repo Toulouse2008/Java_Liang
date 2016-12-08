@@ -23,9 +23,9 @@ public class E9_8_Fan {
 }
 
 class Fan {
-  final private static int SLOW = 1;
-  final private static int MEDIUM = 2;
-  final private static int FAST = 3;
+  private static final int SLOW = 1;
+  private static final int MEDIUM = 2;
+  private static final int FAST = 3;
 
   private int speed = SLOW;
   private boolean on = false;
